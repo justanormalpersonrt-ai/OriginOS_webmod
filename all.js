@@ -11,7 +11,7 @@ let home_wallpaper = "";
 let lock_wallpaper = "";
 
 document.getElementById("phoneName").textContent =
-  localStorage.getItem("phoneName") || "Your Phone";
+  localStorage.getItem("phoneName") || "iPhone 11 Pro Max";
 
 initOriginDB(() => {
   getData("lock_wallpaper", (value) => {
