@@ -205,7 +205,7 @@ body::-webkit-scrollbar-thumb:hover {
   content: "";
   position: absolute;
   inset: 0;
-  border-radius: 20px;
+  border-radius: 999px;
   background: var(--bg--originos) no-repeat center/cover;
   background-size: var(--bg-size_img);
   transition: all 0.3s ease;
